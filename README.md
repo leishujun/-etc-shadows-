@@ -1,1 +1,1 @@
-# -etc-shadows-
+# -etc-shadows-passwd
