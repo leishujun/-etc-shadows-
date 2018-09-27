@@ -1,0 +1,19 @@
+groups
+
+/etc/group   用户组信息
+wang:x:1000:wang
+wang：组名称
+x：密码，加密的放在gshadow里面
+1000：组ID
+wang：成员
+
+
+
+相关命令：groupmems、gpasswd、newgrp、useradd 、groups=id -Gn
+
+/etc/gshadow    用户组的密码   
+wang:!!::wang
+wang：组名
+！！：锁定，禁用
+：：   管理员
+wang：成员
